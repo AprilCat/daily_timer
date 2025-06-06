@@ -17,7 +17,7 @@ on:
 
 jobs:
   report:
-    runs-on: wanfu-system
+    runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
         # https://github.com/actions/checkout/tree/v3.0.2
