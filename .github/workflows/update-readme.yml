@@ -10,7 +10,7 @@ on:
     # Every 5 minutes.
     # - cron: '*/5 * * * *'
     # At the beginning of every day.
-    - cron: "43 17 * * *"
+    - cron: "50 17 * * *"
 
 # on: [push]
 
