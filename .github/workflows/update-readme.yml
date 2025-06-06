@@ -1,4 +1,4 @@
-name: GitHub Self-Updating Repository Demo
+name: GitHub Action Self-Updating Repository Demo
 
 on:
   # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
@@ -10,7 +10,7 @@ on:
     # Every 5 minutes.
     # - cron: '*/5 * * * *'
     # At the beginning of every day.
-    - cron: "55 16 * * *"
+    - cron: "25 17 * * *"
 
 # on: [push]
 
